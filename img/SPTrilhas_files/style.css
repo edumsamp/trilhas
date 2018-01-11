@@ -5,7 +5,7 @@
 
 .cat1-título {
   border-bottom-style:solid;
-  border-bottom-color:black;
+  border-bottom-color:black
 }
 
 .cat1-card{
@@ -23,14 +23,6 @@
   height: 25px;
 }
 
-.crit {
-  border-style: solid;
-  margin: 20px;
-}
-
-.crit p{
-  border-bottom-style:solid;
-}
 
 img {
   display: block;
