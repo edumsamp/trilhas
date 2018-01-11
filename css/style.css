@@ -1,21 +1,104 @@
-.header{
-  background-color: blue;
-  height: 50px;
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin:0;
 }
 
-.cat1-título {
+.header{
+  background-color: black;
+  height: 100px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  background-color: #eaedf2;
+}
+
+.menu p {
+  width: 25%;
+  text-align: center;
+  margin: auto;
+  font-weight: black;
+}
+
+.abertura {
+  width: 100%;
+  /* background-image: url(https://cdn.tourradar.com/s3/tour/original/5596_768b2ec4.jpg);
+  height: 500px; */
+}
+
+.intro{
+  display:flex;
+  justify-content: space-around;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.intro img {
+  width: 100%;
+  background-color: #eaedf2;
+}
+
+.intro p{
+  width: 200px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-bottom: 0.2em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cadastro {
+  background-color: #919499;
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 83.5%;
+  margin:auto;
+}
+
+.cadastro p {
+  height: 7px;
+  padding-bottom: 5px
+}
+
+
+#texto-menor {
+  font-size: 12px;
+  height: 20px;
+}
+
+.footer {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  margin-top: 20px;
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 100px;
+}
+
+.cat1-titulo {
   border-bottom-style:solid;
   border-bottom-color:black;
+
 }
 
 .cat1-card{
   display:flex;
   justify-content: space-around;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .card {
   border-style: solid;
-  width:25%;
+  width:250px;
   text-align: center;
 }
 
@@ -30,6 +113,11 @@
 
 .crit p{
   border-bottom-style:solid;
+  text-align: left;
+  padding-left: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 50px;
 }
 
 img {
