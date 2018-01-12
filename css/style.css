@@ -84,6 +84,7 @@ display:block;
   margin-top: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
+  box-sizing: border-box;
 }
 
 .cadastro {
@@ -163,4 +164,12 @@ display:block;
 
 .menu p:hover {
   background-color: #a0a0a0
+}
+
+.categoria:hover{
+  border: solid black;
+}
+
+.categoria p:hover{
+  border-top: solid black;
 }
