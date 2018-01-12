@@ -1,0 +1,172 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin:0;
+  background-color: white;
+}
+
+.header{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 130px;
+}
+
+.header img {
+  height: 70%;
+
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: #eaedf2;
+}
+
+.menu p {
+  width: 25%;
+  text-align: center;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.menu input {
+  box-sizing: border-box;
+  width: 20%;
+  font-size: 16px;
+  text-align: center;
+}
+
+.container1{
+  display: flex;
+  align-items: center;
+  height: 600px;
+  width: 100%;
+}
+
+.bar-lateral{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100%;
+  width: 20%;
+  /* border-style: solid; */
+  background-color: black;
+  color: white;
+
+}
+
+.bar-lateral p{
+  width: 100%;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.bar-lateral p:hover{
+  background-color: white;
+  color: black;
+  padding: 15px;
+
+}
+.cat1-card{
+  display:flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+
+.card1 {
+    display: flex;
+    align-content: center;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    padding-top: 8px !important;
+    padding-bottom: 12px !important;
+    height: 100%;
+    width: 100%;
+}
+
+.card2{
+  display: flex;
+  flex-flow: column wrap;
+  width:: 100%;
+  height: 100%;
+}
+
+.conteiner_texto{
+  display:flex;
+  flex-wrap: wrap;
+
+}
+.card2 h1{
+  font-size: 20px;
+  width: 200px;
+  height: 48px;
+}
+.card2 p{
+  /* display: block; */
+  width: 100%;
+  height: 40%;
+  padding: 5px;
+  margin: 0;
+}
+
+img {
+  /* display: block; */
+  width: 100%;
+  height: 40%;
+}
+
+.footer {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  margin-top: 20px;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 126px;
+}
+
+#logo-fim {
+  height: 60%;
+}
+
+.icones {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 12%;
+  height: 60%;
+}
+
+  .icones img {
+  height: 30%;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+
+/* HOVER!! */
+
+.menu p:hover {
+  background-color: #a0a0a0
+}
+
+.categoria:hover{
+  border: solid black;
+}
+
+.categoria p:hover{
+  border-top: solid black;
+}
+
+
+img:hover {
+  opacity: 1;
+}

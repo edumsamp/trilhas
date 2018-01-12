@@ -112,6 +112,8 @@ display:block;
 #texto-menor {
   font-size: 14px;
   height: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #campo {
@@ -152,15 +154,19 @@ display:block;
 
 .icones {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-end;
-  width: 9%;
-  height: 60%
+  width: 12%;
+  height: 60%;
 }
 
   .icones img {
   height: 30%;
+  margin-left: 10px;
+  margin-right: 10px;
   }
+
+/* HOVER!! */
 
 .menu p:hover {
   background-color: #a0a0a0
@@ -173,3 +179,30 @@ display:block;
 .categoria p:hover{
   border-top: solid black;
 }
+
+/* RESPONSIVIDADE!!! */
+
+@media (max-width: 700px) {
+
+  .intro{
+    display:block;
+  }
+  .categoria {
+    width: 60%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width: 531px) {
+
+    #texto-menor {
+      font-size: 14px;
+      height: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+    }
