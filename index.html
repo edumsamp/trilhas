@@ -11,14 +11,15 @@
 <body>
 
 <div class="header">
-SPTrilhas
+<img src="img/logo-sptrilhas-negativo.svg" alt="">
 </div>
 
 <div class="menu">
-  <p>Home</p>
-  <p>Sobre nós</p>
-  <p>Trilhas</p>
-  <p>Contato</p>
+  <p class="tit">Home</p>
+  <p class="tit">Sobre nós</p>
+  <p class="tit">Trilhas</p>
+  <p class="tit">Contato</p>
+  <input type="text" placeholder="Buscar..">
 
 </div>
 
@@ -28,9 +29,26 @@ SPTrilhas
 
 
 <div class="intro">
-  <p><img src="img/pe.jpg" alt="">Trekking</p>
+
+  <div class="categoria">
+    <img class="imagem" src="img/pe.jpg" alt="">
+    <p>Trekking</p>
+  </div>
+
+  <div class="categoria">
+    <img class="imagem" src="img/pe.jpg" alt="">
+    <p>Trekking</p>
+  </div>
+
+  <div class="categoria">
+    <img class="imagem" src="img/pe.jpg" alt="">
+    <p>Trekking</p>
+  </div>
+
+<!--
+
   <p><img src="img/bike.jpg" alt="">Bike</p>
-  <p><img src="img/carro.jpg" alt="">Carro</p>
+  <p><img src="img/carro.jpg" alt="">Carro</p> -->
 
 </div>
 
@@ -38,18 +56,24 @@ SPTrilhas
 
   <p><b>ASSINE NOSSA NEWSLETTER</b></p>
   <p id="texto-menor" >Cadastre-se e acompanhe as nossas últimas novidades</p>
-  <form>
-  <input type="text" name="email" placeholder="email" value="">
-  <button type="button" onclick="alert('Email cadastrado com sucesso!')">Cadastrar!</button>
-</form>
+
+  <form action="/action_page.php" method="get" target="_blank">
+    <input id="campo" type="text" placeholder="email">
+    <input id="botao" type="submit" value="Cadastrar">
+  </form>
 
 
 </div>
 
 <div class="footer">
 
-  <p>logo</p>
-  <p>icones</p>
+  <img id="logo-fim" src="img/logo-sptrilhas-negativo.svg" alt="">
+
+  <div class="icones">
+  <img src="img/icone-fb.svg" alt="">
+  <img src="img/icone-instagram.svg" alt="">
+  <img src="img/icone-twitter.svg" alt="">
+  </div>
 
 </div>
 

@@ -1,17 +1,25 @@
 body {
   font-family: 'Montserrat', sans-serif;
   margin:0;
+  background-color: white;
 }
 
 .header{
+  display:flex;
+  justify-content: center;
+  align-items: center;
   background-color: black;
-  height: 100px;
+  height: 130px;
+}
+
+.header img {
+  height: 70%;
+
 }
 
 .menu {
   display: flex;
   justify-content: space-around;
-  height: 30px;
   background-color: #eaedf2;
 }
 
@@ -19,8 +27,21 @@ body {
   width: 25%;
   text-align: center;
   margin: auto;
-  font-weight: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
 }
+
+.menu input {
+  box-sizing: border-box;
+  width: 20%;
+  font-size: 16px;
+  text-align: center;
+}
+
+
 
 .abertura {
   width: 100%;
@@ -31,24 +52,38 @@ body {
 .intro{
   display:flex;
   justify-content: space-between;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-.intro img {
-  width: 100%;
-  height: 200px;
-  background-color: #eaedf2;
-}
-
-.intro p{
-  width: 350px;
+.categoria {
+  width: 31%;
   text-align: center;
-  background-color: black;
-  color: white;
-  padding-bottom: 0.8em;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-sizing: content-box;
+}
+
+.categoria img {
+  width: 100%;
+  margin: 0px;
+}
+
+.categoria p{
+display:block;
+  width: 100%;
+  font-size: 22px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-width:thin;
+  border-color:darkgrey;
+  text-transform: uppercase;
+  margin: 0px;
+  margin-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .cadastro {
@@ -57,13 +92,15 @@ body {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-right: 150px;
-  margin-left: 150px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 40px;
 }
 
 .cadastro p {
   height: 7px;
-  padding-bottom: 0px
+  padding-bottom: 0px;
+  font-size: 18px
 }
 
 .cadastro form {
@@ -72,8 +109,28 @@ body {
 
 
 #texto-menor {
-  font-size: 12px;
+  font-size: 14px;
   height: 20px;
+}
+
+#campo {
+  font-size: 12px;
+  width: 35%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  text-transform: uppercase;
+}
+
+#botao {
+  font-size: 14px;
+  border-style:solid;
+  border-color: black;
+  background-color: lightgrey;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  margin-left: 5px;
 }
 
 .footer {
@@ -83,50 +140,27 @@ body {
   background-color: black;
   margin-top: 20px;
   color: white;
-  padding-left: 100px;
-  padding-right: 100px;
-  height: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 126px;
 }
 
-.cat1-titulo {
-  border-bottom-style:solid;
-  border-bottom-color:black;
-
+#logo-fim {
+  height: 60%;
 }
 
-.cat1-card{
-  display:flex;
-  justify-content: space-around;
-  margin-left: 50px;
-  margin-right: 50px;
+.icones {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 9%;
+  height: 60%
 }
 
-.card {
-  border-style: solid;
-  width:250px;
-  text-align: center;
-}
+  .icones img {
+  height: 30%;
+  }
 
-.trilha {
-  height: 25px;
-}
-
-.crit {
-  border-style: solid;
-  margin: 20px;
-}
-
-.crit p{
-  border-bottom-style:solid;
-  text-align: left;
-  padding-left: 5px;
-  margin-top: auto;
-  margin-bottom: auto;
-  height: 50px;
-}
-
-img {
-  display: block;
-  width: 80%;
-  margin: auto;
+.menu p:hover {
+  background-color: #a0a0a0
 }
